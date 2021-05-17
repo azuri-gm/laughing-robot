@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 const About = () => (
   <div className='prose max-w-none container mx-auto flex flex-row lg:flex-col px-5 py-12 justify-center items-center'>
     <img
@@ -11,7 +10,7 @@ const About = () => (
         Hi! My name is Eduardo
       </h1>
       <p className='mb-8 leading-relaxed'>
-        I'm a Fullstack developer with primary focus on front end development.
+        I am a Fullstack developer with primary focus on front end development.
       </p>
     </div>
   </div>

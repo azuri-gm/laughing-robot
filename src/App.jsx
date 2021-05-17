@@ -13,7 +13,7 @@ const App = () => (
     <Router>
       <div className='flex flex-col h-screen'>
         <NavBar />
-        <div className='prose-xl flex-grow'>
+        <div className='prose-xl flex-grow mt-12'>
           <Switch>
             <Route exact path='/'>
               <Home />

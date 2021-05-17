@@ -17,5 +17,8 @@ module.exports = {
     'jsx-quotes': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'react/prop-types': 'off',
+    'react/destructuring-assignment': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/no-unescaped-entities': 'off'
   },
 };
