@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 const About = () => (
-  <div className='container mx-auto flex px-5 py-12 justify-center items-center prose'>
+  <div className='prose max-w-none container mx-auto flex flex-row lg:flex-col px-5 py-12 justify-center items-center'>
     <img
-      className='lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded'
+      className='lg:w-1/6 md:w-2/6 sm:w-3/6 xs:w-3/6 mb-10 object-cover object-center rounded'
       alt='hero'
       src='https://azuri.dev/lalo.a1992c7e.png'
     />
