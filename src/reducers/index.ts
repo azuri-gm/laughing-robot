@@ -1,9 +1,11 @@
+import { Action, RootState } from '../types';
+
 const initialState = {
   defaultLang: 'ES',
   selectedLang: '',
 };
 
-const rootReducer = (state = initialState, action) => {
+const rootReducer = (state: RootState = initialState, action: Action): RootState => {
   const { type, payload } = action;
   switch (type) {
     case 'UPDATE_LANGUAGE':
